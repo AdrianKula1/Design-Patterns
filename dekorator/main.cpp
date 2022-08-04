@@ -3,17 +3,6 @@
 #include <list>
 #include <map>
 
-class User{
-private:
-    static int counter;
-public:
-    static int getCounter(){
-        return counter;
-    }
-};
-
-int User::counter=2;
-
 class Pizza{
 protected:
     float price=10;
@@ -24,20 +13,20 @@ public:
     }
 };
 
-class Hawajska: public Pizza{
+class Hawaiian: public Pizza{
 private:
 
 public:
-    Hawajska(float cena){
-        this->price=cena;
+    Hawaiian(float price){
+        this->price=price;
     }
 };
 
-class Dodatek: public Pizza{
+class Addon: public Pizza{
 protected:
     Pizza *pizza = nullptr;
 public:
-    Dodatek(Pizza *pizza){
+    Addon(Pizza *pizza){
         this->pizza=pizza;
     }
 
@@ -46,20 +35,20 @@ public:
     }
 };
 
-class Grzyby: public Dodatek{
+class Mushroms: public Addon{
 private:
 public:
-    Grzyby(Pizza *pizza): Dodatek(pizza){}
+    Mushroms(Pizza *pizza): Addon(pizza){}
 
     float getPrice() override{
         return pizza->getPrice()+5;
     }
 };
 
-class Papryka: public Dodatek{
+class Pepper: public Addon{
 private:
 public:
-    Papryka(Pizza *pizza): Dodatek(pizza){}
+    Pepper(Pizza *pizza): Addon(pizza){}
 
     float getPrice() override{
         return pizza->getPrice()+5;
@@ -69,7 +58,7 @@ public:
 int main() {
 
 
-    Pizza *pizza = new Papryka( new Grzyby(new Hawajska(15)));
+    Pizza *pizza = new Pepper( new Mushroms(new Hawaiian(15)));
     std::cout << pizza->getPrice() << std::endl;
 
 
