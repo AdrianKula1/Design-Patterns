@@ -1,0 +1,3 @@
+C:/Users/Adrian/OneDrive - Uniwersytet Marii Curie-Skłodowskiej/Pulpit/LICENCJAT/Licencjat/Pytania/WzorceProjektowe/memento/cmake-build-debug/CMakeFiles/memento.dir
+C:/Users/Adrian/OneDrive - Uniwersytet Marii Curie-Skłodowskiej/Pulpit/LICENCJAT/Licencjat/Pytania/WzorceProjektowe/memento/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Adrian/OneDrive - Uniwersytet Marii Curie-Skłodowskiej/Pulpit/LICENCJAT/Licencjat/Pytania/WzorceProjektowe/memento/cmake-build-debug/CMakeFiles/rebuild_cache.dir
