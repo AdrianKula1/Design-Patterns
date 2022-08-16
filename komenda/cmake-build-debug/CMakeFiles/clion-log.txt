@@ -1,0 +1,1 @@
+CMakeLists.txt not found in C:\Users\Adrian\OneDrive - Uniwersytet Marii Curie-Skłodowskiej\Pulpit\LICENCJAT\Licencjat\Pytania\WzorceProjektowe\komenda Select CMakeLists.txt
