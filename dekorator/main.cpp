@@ -1,7 +1,4 @@
 #include <iostream>
-#include <string>
-#include <list>
-#include <map>
 
 class Pizza{
 protected:
