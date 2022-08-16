@@ -1,3 +1,0 @@
-C:/Users/Adrian/OneDrive - Uniwersytet Marii Curie-Skłodowskiej/Pulpit/LICENCJAT/Licencjat/Pytania/WzorceProjektowe/streategia/cmake-build-debug/CMakeFiles/streategia.dir
-C:/Users/Adrian/OneDrive - Uniwersytet Marii Curie-Skłodowskiej/Pulpit/LICENCJAT/Licencjat/Pytania/WzorceProjektowe/streategia/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Adrian/OneDrive - Uniwersytet Marii Curie-Skłodowskiej/Pulpit/LICENCJAT/Licencjat/Pytania/WzorceProjektowe/streategia/cmake-build-debug/CMakeFiles/rebuild_cache.dir
