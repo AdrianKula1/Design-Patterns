@@ -52,9 +52,8 @@ public:
     }
 };
 
+
 int main() {
-
-
     Pizza *pizza = new Pepper( new Mushroms(new Hawaiian(15)));
     std::cout << pizza->getPrice() << std::endl;
 
